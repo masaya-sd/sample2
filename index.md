@@ -4,16 +4,19 @@
 #### h4 Heading
 ##### h5 Heading
 ###### h6 Heading
+
 ## Emphasis
 **This is bold text**
 __This is bold text__
 *This is italic text*
 _This is italic text_
 ~~Strikethrough~~
+
 ## Blockquotes
 > Blockquotes can also be nested...
 >> ...by using additional greater-than signs right next to each other...
 > > > ...or with spaces between arrows.
+
 ## Lists
 Unordered
 + Create a list by starting a line with `+`, `-`, or `*`
@@ -32,6 +35,7 @@ Ordered
 Start numbering with offset:
 57. foo
 1. bar
+
 ## Code
 Inline `code`
 Indented code
@@ -50,6 +54,7 @@ var foo = function (bar) {
 };
 console.log(foo(5));
 ```
+
 ## Tables
 | Option | Description |
 | ------ | ----------- |
@@ -62,6 +67,7 @@ Right aligned columns
 | data | path to data files to supply the data that will be passed into templates. |
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext | extension to be used for dest files. |
+
 ## Links
 [link text](http://dev.nodeca.com)
 [link with title](http://nodeca.github.io/pica/demo/ "title text!")
